@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>{% block title %}{% endblock  %}</title>
+</head>
+<body class="bg-slate-700"> 
+    
+    <nav class="py-8 px-8 flex flex-row items-center justify-between bg-slate-900">
+        <div>
+            <a href="{% url 'app:index' %}" class="text-2xl text-white font-bold">Send me coins</a>
+        </div>
+
+        <div class="space-x-6">
+            <a href="" class="py-4 px-6 text-lg font-bold text-white">Creators</a>
+            <a href="" class="py-4 px-6 text-lg font-bold text-white bg-sky-800 rounded-lg">Sign in</a>
+            <a href="" class="py-4 px-6 text-lg font-bold text-white bg-sky-800 rounded-lg">Create Account</a>
+        </div>
+    </nav>
+
+        <main class="py-6 px-8">
+            {% block content %}{% endblock  %}
+        </main>
+
+        <footer class="py-6 px-8 text-center bg-slate-600">
+            <p class="text-slate-200">Copyright 2024 - sendme</p>
+        </footer>
+</body>
+</html>
