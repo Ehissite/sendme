@@ -1,11 +1,11 @@
 {% extends "core/base.html" %}
 {% load static  %}
-{% block title %}Home{% endblock  %}
+{% block title %}Creators{% endblock  %}
 
 {% block content %}
 <div class="py-20 text-center space-y-12">
-                <h1 class="text-7xl text-slate-300 font-bold">Get paid for your work</h1>
-                <p class="text-xl text-slate-400">Send tokens for freelancing jobs anywhere in the world. Super fast and easy...</p>
+                <h1 class="text-7xl text-slate-300 font-bold">Creators</h1>
+                {% comment %} <p class="text-xl text-slate-400">Send tokens for freelancing jobs anywhere in the world. Super fast and easy...</p> {% endcomment %}
 
                 <a href="{% url 'creator:signup' %}" class="py-8 px-12 inline-block text-xl text-white bg-sky-800 rounded-lg">Create page</a>
             </div>
