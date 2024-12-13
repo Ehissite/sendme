@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^iw2m-jq66kwgdd7i3=mq(n&xqyw=flxapakg52t!%z*rd=v6=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://sendme-1.onrender.com']
+ALLOWED_HOSTS = ['https://sendme-5.onrender.com']
 
 LOGIN_URL = 'creator:login'
 LOGIN_REDIRECT_URL = 'core:index'
