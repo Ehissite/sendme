@@ -1,12 +1,8 @@
 asgiref==3.8.1
-certifi==2024.2.2
-charset-normalizer==3.3.2
-cryptomus==1.1
-Django==5.0.4
+Django==5.1.4
+pillow==11.0.0
+sqlparse==0.5.2
+tzdata==2024.2
+
+# also include
 gunicorn==21.2.0
-idna==3.7
-packaging==24.0
-pillow==10.3.0
-requests==2.31.0
-sqlparse==0.5.0
-urllib3==2.2.1
